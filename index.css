@@ -104,10 +104,22 @@ body {
   position: relative;
   box-sizing: border-box;
   padding: 10px;
+  scroll-snap-align: start;
 }
 
 body {
   overflow-x: hidden;
+}
+
+main {
+  scroll-snap-type: y mandatory;
+}
+
+h1,
+h2,
+p,
+li {
+  max-width: 800px;
 }
 
 .pill {
